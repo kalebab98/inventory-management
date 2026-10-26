@@ -18,7 +18,7 @@ let isTableInitialized: boolean = false;
  */
 export async function checkSupabaseConnection(): Promise<SupabaseSyncStatus> {
   const configured = isSupabaseConfigured();
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://wfkdfhxehcbgxomlpxhx.supabase.co';
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 
   if (!configured) {
     return {

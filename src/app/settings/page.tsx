@@ -421,7 +421,7 @@ export default function SettingsPage() {
                       </span>
                     </div>
                     <div className="text-[11px] font-mono text-slate-500 dark:text-slate-400 mt-0.5">
-                      Endpoint: https://wfkdfhxehcbgxomlpxhx.supabase.co
+                      Endpoint: {process.env.NEXT_PUBLIC_SUPABASE_URL || 'Configured via .env.local'}
                     </div>
                   </div>
                 </div>

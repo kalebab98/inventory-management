@@ -41,8 +41,8 @@ npm install
 ### 2. Environment Configuration
 Create a `.env.local` file based on `.env.example`:
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://wfkdfhxehcbgxomlpxhx.supabase.co
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_om7GXw2crvECmrctwmK54A_34E4Zy9r
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_anon_key
 NEXT_PUBLIC_APP_NAME="Apex Enterprise Asset & Inventory Management"
 NEXT_PUBLIC_DEFAULT_CURRENCY="ETB"
 ```
