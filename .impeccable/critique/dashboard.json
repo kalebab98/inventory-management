@@ -1,0 +1,26 @@
+{
+  "target": "src/components/dashboard/DashboardOverview.tsx",
+  "targetSlug": "dashboard",
+  "generatedAt": "2026-10-24T17:34:00.000Z",
+  "closedAt": "2026-10-24T18:05:00.000Z",
+  "score": 38,
+  "maxScore": 40,
+  "ratingBand": "Exemplary Operational Craft",
+  "heuristics": [
+    { "id": 1, "name": "Visibility of System Status", "score": 4, "issue": "Resolved (Live sync badge & active records indicator integrated)" },
+    { "id": 2, "name": "Match System / Real World", "score": 4, "issue": "n/a (Solid domain mapping to residential assets & unit equipment)" },
+    { "id": 3, "name": "User Control and Freedom", "score": 4, "issue": "Resolved (One-click 'Reset All Filters' button on zero-result table states)" },
+    { "id": 4, "name": "Consistency and Standards", "score": 4, "issue": "n/a (5-pillar color system and Jira tokens enforced)" },
+    { "id": 5, "name": "Error Prevention", "score": 4, "issue": "Resolved (Inline clear button inside search, keyboard Esc listener)" },
+    { "id": 6, "name": "Recognition Rather Than Recall", "score": 4, "issue": "n/a (Visual equipment thumbnails, donut count/percent legend)" },
+    { "id": 7, "name": "Flexibility and Efficiency", "score": 4, "issue": "Resolved (Global keyboard shortcut / and Cmd+K to focus search)" },
+    { "id": 8, "name": "Aesthetic and Minimalist Design", "score": 4, "issue": "n/a (Craft floor rules applied: kicker removed, crisp 1px borders, high contrast)" },
+    { "id": 9, "name": "Error Recovery", "score": 4, "issue": "Resolved (Instant one-click reset for search + category + property)" },
+    { "id": 10, "name": "Help and Documentation", "score": 2, "issue": "Self-explanatory UI with Unit Audit sheet; documentation guide available" }
+  ],
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0,
+  "p3Count": 0,
+  "status": "closed"
+}

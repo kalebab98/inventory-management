@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T17:33:00.000Z",
+  "title": "Design System: Apartment Asset & Inventory Management",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Jira Blue", "canonical": "#0052CC" },
+      "tile-assets": { "role": "category", "displayName": "Asset Teal", "canonical": "#009688" },
+      "tile-accessories": { "role": "category", "displayName": "Accessory Pink", "canonical": "#E91E63" },
+      "tile-warranties": { "role": "category", "displayName": "Warranty Orange", "canonical": "#FF8F00" },
+      "tile-components": { "role": "category", "displayName": "Component Azure", "canonical": "#1976D2" },
+      "tile-consumables": { "role": "category", "displayName": "Consumable Purple", "canonical": "#673AB7" },
+      "canvas-light": { "role": "neutral", "displayName": "Canvas Light", "canonical": "#F4F5F7" },
+      "surface-light": { "role": "neutral", "displayName": "Surface Light", "canonical": "#FFFFFF" },
+      "border-light": { "role": "neutral", "displayName": "Border Light", "canonical": "#E2E8F0" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Top dashboard headings and high-impact metrics." },
+      "headline": { "displayName": "Headline", "purpose": "Bento container titles and modal headers." },
+      "title": { "displayName": "Title", "purpose": "Equipment model names and section titles." },
+      "body": { "displayName": "Body", "purpose": "Descriptions and table cell content." },
+      "label": { "displayName": "Monospace Label", "purpose": "Asset tags, serial numbers, currency, timestamps." }
+    },
+    "shadows": [
+      { "name": "card-rest", "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "purpose": "Subtle border elevation on resting cards." },
+      { "name": "card-hover", "value": "0 4px 6px -1px rgb(0 0 0 / 0.08)", "purpose": "Interactive lift on hover." },
+      { "name": "modal-sheet", "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)", "purpose": "Focused dialog sheet elevation." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Smooth transition for theme switches and card hovers." },
+      { "name": "duration-fast", "value": "150ms", "purpose": "Button click and pill hover state changes." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  }
+}
